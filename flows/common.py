@@ -22,7 +22,7 @@ def system_command_with_retry(cmd: list):
 
 def install_dependencies():
     dependencies = [
-        {'metaflow_test': 'https://github.com/graviraja/metaflow-test.git'},
+        {'metaflow_test': 'git+https://github.com/graviraja/metaflow-test.git'},
     ]
     for dependency in dependencies:
         for k, v in dependency.items():
