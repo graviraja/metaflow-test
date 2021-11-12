@@ -7,7 +7,7 @@ import os
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = "metaflow-test"
+NAME = "metaflow_test"
 DESCRIPTION = "Metaflow meta-test"
 URL = ""
 EMAIL = ""
