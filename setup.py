@@ -18,7 +18,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 
 # Load the package's __version__.py module as a dictionary.
-about = {"__version__": "0.1.0"}
+about = {"__version__": "0.2.0"}
 
 setup(
     name=NAME,
